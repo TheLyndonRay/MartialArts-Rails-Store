@@ -5,6 +5,12 @@ A4ProjectRevive::Application.routes.draw do
 
   match '/products' => 'products#index', :as => 'products', :via => :get
 
+  match '/products/kick' => 'products#kicks', :as => 'kicks', :via => :get
+
+  match '/products/punch' => 'products#punches', :as => 'punches', :via => :get
+
+  match '/products/block' => 'products#blocks', :as => 'blocks', :via => :get
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
