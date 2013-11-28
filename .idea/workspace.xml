@@ -4,17 +4,17 @@
     <list default="true" id="39c45d07-6e4b-4a73-8ccb-39338e1ab658" name="Default" comment="">
       <change type="DELETED" beforePath="C:\A4ProjectRevive\app\assets\images\rails.png" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\public\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="A4ProjectRevive.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385635319968" ignored="false" />
+    <file path="/Dummy.txt" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385635668420" ignored="false" />
     <file path="/customer.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597259100" ignored="false" />
     <file path="/line_item.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597466150" ignored="false" />
     <file path="/order.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597554297" ignored="false" />
     <file path="/product.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597610627" ignored="false" />
     <file path="/province.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597663596" ignored="false" />
-    <file path="$PROJECT_DIR$/db/schema.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597981685" ignored="false" />
+    <file path="/20131128105142_change_pictures_to_picture_in_products.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385636039431" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="active_admin.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="584" selection-end="584" vertical-scroll-proportion="0.2905983">
+            <state line="14" column="58" selection-start="539" selection-end="539" vertical-scroll-proportion="0.2542735">
               <folding />
             </state>
           </provider>
@@ -130,6 +130,7 @@
         <option value="$PROJECT_DIR$/app/models/order.rb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/app/models/province.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131128105142_change_pictures_to_picture_in_products.rb" />
       </list>
     </option>
   </component>
@@ -181,6 +182,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/A4Project" />
+    <property name="last_opened_file_path" value="K:/Docs/Skydrive/RRC TERM 3/E Commerce/Rails Projects/UC6_CRM" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -435,13 +468,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28975454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28975454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -517,13 +550,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="55" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
@@ -624,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="584" selection-end="584" vertical-scroll-proportion="0.2905983">
+        <state line="14" column="58" selection-start="539" selection-end="539" vertical-scroll-proportion="0.2542735">
           <folding />
         </state>
       </provider>
