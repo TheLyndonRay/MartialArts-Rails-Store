@@ -1,9 +1,5 @@
 <h1>Products List</h1>
-    <% @products.each do |product| %>
-        <section>
-          <%= "#{product.name}" %>
-          <%= "#{product.price} each" %>
-          <%= image_tag product.image %>
-        </section>
-    <% end %>
-<p>Find me in app/views/products/index.html.erb</p>
+<div class="row">
+    <%= render @products %>
+</div>
+

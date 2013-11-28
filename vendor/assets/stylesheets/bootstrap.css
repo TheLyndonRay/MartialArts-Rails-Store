@@ -5327,6 +5327,12 @@ a.list-group-item:focus {
   padding: 15px;
 }
 
+.panel-body-image {
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+}
+
 .panel-body:before,
 .panel-body:after {
   display: table;
