@@ -1,0 +1,14 @@
+<h1>Products List</h1>
+<section class="services">
+  <ul>
+    <% @products.each do |product| %>
+        <li>
+          <%= "#{product.name}" %>
+          <%= "#{product.price} each" %>
+          <%= image_tag product.image %>
+        </li>
+    <% end %>
+  </ul>
+</section>
+
+<p>Find me in app/views/products/index.html.erb</p>

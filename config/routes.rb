@@ -1,6 +1,9 @@
 A4ProjectRevive::Application.routes.draw do
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+
+  match '/products' => 'products#index', :as => 'products', :via => :get
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
