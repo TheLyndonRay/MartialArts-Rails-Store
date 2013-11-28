@@ -4,7 +4,7 @@
     <list default="true" id="39c45d07-6e4b-4a73-8ccb-39338e1ab658" name="Default" comment="">
       <change type="DELETED" beforePath="C:\A4ProjectRevive\app\assets\images\rails.png" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\public\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
     </list>
     <ignored path="A4ProjectRevive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="260" selection-end="260" vertical-scroll-proportion="0.18681319">
+            <state line="6" column="38" selection-start="199" selection-end="199" vertical-scroll-proportion="0.11208791">
               <folding />
             </state>
           </provider>
@@ -618,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="260" selection-end="260" vertical-scroll-proportion="0.18681319">
+        <state line="6" column="38" selection-start="199" selection-end="199" vertical-scroll-proportion="0.11208791">
           <folding />
         </state>
       </provider>
