@@ -1,12 +1,12 @@
 <h1>Products List</h1>
-<section class="services">
+<main>
     <% @products.each do |product| %>
-
-        <%= "#{product.name}" %>
-        <%= "#{product.price} each" %>
-        <%= image_tag product.image %>
-
+        <section>
+          <%= "#{product.name}" %>
+          <%= "#{product.price} each" %>
+          <%= image_tag product.image %>
+        </section>
     <% end %>
-</section>
+</main>
 
 <p>Find me in app/views/products/index.html.erb</p>
