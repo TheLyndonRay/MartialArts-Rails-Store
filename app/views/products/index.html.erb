@@ -1,5 +1,4 @@
 <h1>Products List</h1>
-<main>
     <% @products.each do |product| %>
         <section>
           <%= "#{product.name}" %>
@@ -7,6 +6,4 @@
           <%= image_tag product.image %>
         </section>
     <% end %>
-</main>
-
 <p>Find me in app/views/products/index.html.erb</p>
