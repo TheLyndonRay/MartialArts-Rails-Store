@@ -9,25 +9,34 @@
 <body>
 
 <div class="container">
-  <ul class="nav nav-pills">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Profile</a></li>
-    <li><a href="#">Messages</a></li>
-    <li><a href="#">Butt</a></li>
-    <li>
-      <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Category <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">All</a></li>
-          <li><a href="#">Kicks</a></li>
-          <li><a href="#">Punches</a></li>
-          <li><a href="#">Blocks</a></li>
-        </ul>
-      </div>
-    </li>
-  </ul>
+    <nav class="navbar navbar-inverse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Butt</a></li>
+        <li>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              Category <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" id="catbutt">
+              <li><a href="#">All</a></li>
+              <li><a href="#">Kicks</a></li>
+              <li><a href="#">Punches</a></li>
+              <li><a href="#">Blocks</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Martial-Arts Moves @ Cost!</h1>
+    </div>
+  </div>
+
 
   <%= yield %>
 
