@@ -3,6 +3,8 @@ A4ProjectRevive::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  root :to => 'pages#index', :as => 'root', :via => :get
+
   match '/products' => 'products#index', :as => 'products', :via => :get
 
   match '/products/kick' => 'products#kicks', :as => 'kicks', :via => :get
@@ -10,6 +12,11 @@ A4ProjectRevive::Application.routes.draw do
   match '/products/punch' => 'products#punches', :as => 'punches', :via => :get
 
   match '/products/block' => 'products#blocks', :as => 'blocks', :via => :get
+
+  match '/about' => 'pages#about', :as => 'about', :via => :get
+
+  match '/contact' => 'pages#contact', :as => 'contact', :via => :get
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
