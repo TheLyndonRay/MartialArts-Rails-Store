@@ -1,0 +1,16 @@
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title"></h3>
+  </div>
+  <div class="panel-body-image">
+    <%= image_tag @product.image %>
+    <span class = "desc_right">
+      <ul>
+        <li><h1><%= @product.name %></h1></li>
+        <li><%= @product.description %></li>
+        <li></li>
+        <li><h3><%= number_to_currency(@product.price) %> Each - <%= @product.stock_quantity %> in stock.</h3></li>
+      </ul>
+    </span>
+  </div>
+</div>

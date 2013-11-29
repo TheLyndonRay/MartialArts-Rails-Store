@@ -14,28 +14,32 @@
       <change type="DELETED" beforePath="C:\A4ProjectRevive\public\index.html" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\test\functional\page_controller_test.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\test\unit\helpers\page_helper_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_product.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_product.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="A4ProjectRevive.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385681439123" ignored="false" />
+    <file path="/Dummy.txt" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385695411987" ignored="false" />
     <file path="/customer.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597259100" ignored="false" />
     <file path="/line_item.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597466150" ignored="false" />
     <file path="/order.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597554297" ignored="false" />
     <file path="/product.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385652893183" ignored="false" />
     <file path="/province.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385597663596" ignored="false" />
     <file path="/20131128105142_change_pictures_to_picture_in_products.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385636039431" ignored="false" />
-    <file path="/products_controller.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666468147" ignored="false" />
+    <file path="/products_controller.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385694813058" ignored="false" />
     <file path="/index.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385685116189" ignored="false" />
-    <file path="/routes.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385688771489" ignored="false" />
+    <file path="/routes.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385696035161" ignored="false" />
     <file path="/application.css" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385639607266" ignored="false" />
     <file path="/application.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385693517090" ignored="false" />
     <file path="/category.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385651246960" ignored="false" />
     <file path="/_index.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385655359442" ignored="false" />
-    <file path="/_product.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385657275635" ignored="false" />
+    <file path="/_product.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385696050076" ignored="false" />
     <file path="/bootstrap.css" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385660713906" ignored="false" />
     <file path="/bootstrap-theme.css" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385658934387" ignored="false" />
-    <file path="/sass.css.scss" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385662977344" ignored="false" />
+    <file path="/sass.css.scss" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385697583107" ignored="false" />
     <file path="/punches.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666740177" ignored="false" />
     <file path="/kicks.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666760704" ignored="false" />
     <file path="/blocks.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666814773" ignored="false" />
@@ -44,6 +48,7 @@
     <file path="/contact.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385684964002" ignored="false" />
     <file path="/_page.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385685060594" ignored="false" />
     <file path="/pages_controller.rb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385684857019" ignored="false" />
+    <file path="/show.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385697483886" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,37 +68,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="37" selection-start="985" selection-end="985" vertical-scroll-proportion="0.46703297">
+            <state line="30" column="51" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-19.615385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="40" selection-start="366" selection-end="366" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="sass.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="78" selection-end="78" vertical-scroll-proportion="-0.65384614">
+            <state line="17" column="44" selection-start="155" selection-end="155" vertical-scroll-proportion="0.30876067">
               <folding />
             </state>
           </provider>
@@ -117,11 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/products/punches.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/kicks.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/blocks.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/page.rb" />
-        <option value="$PROJECT_DIR$/app/views/page/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/page/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/page/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/page/_page.html.erb" />
@@ -131,8 +122,13 @@
         <option value="$PROJECT_DIR$/app/views/pages/_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/admin/product.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/_product.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" />
       </list>
     </option>
   </component>
@@ -250,7 +246,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,28 +329,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A4ProjectRevive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A4ProjectRevive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -370,6 +362,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A4ProjectRevive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -381,7 +431,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="ruby.project.structure" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/UC6_CRM" />
+    <property name="last_opened_file_path" value="K:/Docs/Skydrive/RRC TERM 3/E Commerce/Rails Projects/UC6_CRM" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -622,25 +672,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="115" selection-end="115" vertical-scroll-proportion="0.07034483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/kicks.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/punches.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="-0.0">
@@ -676,23 +707,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="98" selection-end="98" vertical-scroll-proportion="0.072649576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/blocks.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="52" selection-start="66" selection-end="66" vertical-scroll-proportion="0.056043956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_product.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="290" selection-end="290" vertical-scroll-proportion="0.11208791">
           <folding />
         </state>
       </provider>
@@ -704,16 +721,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/admin/product.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="78" selection-end="78" vertical-scroll-proportion="-0.65384614">
+        <state line="9" column="33" selection-start="232" selection-end="232" vertical-scroll-proportion="0.16346154">
           <folding />
         </state>
       </provider>
@@ -725,9 +735,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="106" selection-end="165" vertical-scroll-proportion="0.12713675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_product.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="302" selection-end="302" vertical-scroll-proportion="0.11208791">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="64" selection-start="334" selection-end="334" vertical-scroll-proportion="0.18162394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="49" selection-start="78" selection-end="78" vertical-scroll-proportion="0.01868132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="985" selection-end="985" vertical-scroll-proportion="0.46703297">
+        <state line="30" column="51" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-19.615385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="366" selection-end="366" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="155" selection-end="155" vertical-scroll-proportion="0.30876067">
           <folding />
         </state>
       </provider>

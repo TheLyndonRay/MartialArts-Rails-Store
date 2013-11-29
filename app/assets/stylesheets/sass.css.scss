@@ -16,3 +16,21 @@ body {
   }
 
 }
+
+.panel {
+
+  position: relative;
+  .desc_right{
+
+    ul {
+      position: absolute;
+      top: 30px;
+      right: -10px;
+      width: 800px;
+      list-style-type: none;
+    }
+
+
+  }
+
+}

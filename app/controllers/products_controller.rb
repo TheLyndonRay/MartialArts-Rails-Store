@@ -5,6 +5,12 @@ class ProductsController < ApplicationController
 
   end
 
+  def show
+
+    @product = Product.find(params[:id])
+
+  end
+
   def kicks
 
     @products = Product.joins(:category).where("categories.name = 'Kick'")
@@ -22,4 +28,10 @@ class ProductsController < ApplicationController
     @products = Product.joins(:category).where("categories.name = 'Block'")
 
   end
+
+  def search
+
+  end
+
+
 end

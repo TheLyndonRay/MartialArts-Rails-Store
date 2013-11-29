@@ -13,9 +13,14 @@ A4ProjectRevive::Application.routes.draw do
 
   match '/products/block' => 'products#blocks', :as => 'blocks', :via => :get
 
+  match 'products/:id' => 'products#show', :as => 'product', :via => :get
+
   match '/about' => 'pages#about', :as => 'about', :via => :get
 
   match '/contact' => 'pages#contact', :as => 'contact', :via => :get
+
+
+
 
 
   # The priority is based upon order of creation:
