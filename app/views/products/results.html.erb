@@ -1,2 +1,6 @@
 <h1>Search Results</h1>
-<%= render @products %>
+<% if @products.count > 0 %>
+    <%= render @products %>
+<% else %>
+    No results!
+<% end %>

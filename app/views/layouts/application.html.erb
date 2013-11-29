@@ -29,6 +29,7 @@
           </div>
         </li>
         <li><%= text_field_tag :keywords, '', size: 30, class: 'search_field' %></li>
+        <li><%= select_tag 'category', options_from_collection_for_select(Category.all, 'id', 'name'), {:prompt => 'All'} %></li>
         <li><%= submit_tag 'Search', class: 'submit_button' %></li>
       </ul>
       <% end %>

@@ -35,7 +35,16 @@ class ProductsController < ApplicationController
 
   def results
 
-    @products = Product.where("name LIKE ?", "%#{params[:keywords]}%")
+    if params['category']
+
+      @products = Product.joins(:category).where("categories.name LIKE ?", "%#{params[:keywords]}%")
+
+    else
+
+      @products = Product.where("name LIKE ? or description LIKE ?", "%#{params[:keywords]}%", "%#{params[:keywords]}%")
+
+    end
+
 
   end
 
