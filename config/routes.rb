@@ -15,6 +15,8 @@ A4ProjectRevive::Application.routes.draw do
 
   match 'products/:id' => 'products#show', :as => 'product', :via => :get
 
+  match '/results' => 'products#results', :as => 'results', :via => :post
+
   match '/about' => 'pages#about', :as => 'about', :via => :get
 
   match '/contact' => 'pages#contact', :as => 'contact', :via => :get

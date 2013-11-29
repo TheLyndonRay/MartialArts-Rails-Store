@@ -33,5 +33,13 @@ class ProductsController < ApplicationController
 
   end
 
+  def results
+
+    @products = Product.where("name LIKE ?", "%#{params[:keywords]}%")
+
+  end
+
+
+
 
 end
