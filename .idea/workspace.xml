@@ -14,11 +14,8 @@
       <change type="DELETED" beforePath="C:\A4ProjectRevive\public\index.html" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\test\functional\page_controller_test.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\A4ProjectRevive\test\unit\helpers\page_helper_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_product.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_product.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" />
     </list>
     <ignored path="A4ProjectRevive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +36,7 @@
     <file path="/_product.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385696050076" ignored="false" />
     <file path="/bootstrap.css" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385660713906" ignored="false" />
     <file path="/bootstrap-theme.css" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385658934387" ignored="false" />
-    <file path="/sass.css.scss" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385697583107" ignored="false" />
+    <file path="/sass.css.scss" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385698235591" ignored="false" />
     <file path="/punches.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666740177" ignored="false" />
     <file path="/kicks.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666760704" ignored="false" />
     <file path="/blocks.html.erb" changelist="39c45d07-6e4b-4a73-8ccb-39338e1ab658" time="1385666814773" ignored="false" />
@@ -77,19 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="366" selection-end="366" vertical-scroll-proportion="-7.1923075">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sass.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sass.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="155" selection-end="155" vertical-scroll-proportion="0.30876067">
+            <state line="1" column="17" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +124,8 @@
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/products/_product.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
       </list>
     </option>
   </component>
@@ -770,16 +767,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="366" selection-end="366" vertical-scroll-proportion="-7.1923075">
+        <state line="1" column="17" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sass.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="155" selection-end="155" vertical-scroll-proportion="0.30876067">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

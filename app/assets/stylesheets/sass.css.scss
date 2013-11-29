@@ -1,3 +1,7 @@
+$font_var: sans-serif;
+$dat_blu: #6DC4F2;
+$dat_white: #FFFFFF;
+
 .container {
 
   .btn-group {
@@ -9,10 +13,12 @@
 
 body {
 
+  font: $font_var;
+
   .jumbotron {
     width: 80%;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: $dat_white;
+    background-color: $dat_blu;
   }
 
 }
