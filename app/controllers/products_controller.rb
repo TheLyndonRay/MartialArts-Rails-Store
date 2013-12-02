@@ -35,13 +35,13 @@ class ProductsController < ApplicationController
 
   def results
 
-    if params['category']
+    if params['category'] == ''
 
-      @products = Product.joins(:category).where("categories.name LIKE ?", "%#{params[:keywords]}%")
+      @products = Product.where("name LIKE ? or description LIKE ?", "%#{params[:keywords]}%", "%#{params[:keywords]}%")
 
     else
 
-      @products = Product.where("name LIKE ? or description LIKE ?", "%#{params[:keywords]}%", "%#{params[:keywords]}%")
+      @products = Product.joins(:category).where("categories.id LIKE ? and products.name LIKE ?", "%#{params['category']}%", "%#{params[:keywords]}%")
 
     end
 
