@@ -21,7 +21,13 @@ A4ProjectRevive::Application.routes.draw do
 
   match '/contact' => 'pages#contact', :as => 'contact', :via => :get
 
+  match '/add_to_cart/:id' => 'products#add_to_cart', :as => 'add', :via => :post
 
+  match '/remove_from_cart/:id' => 'products#remove_from_cart', :as => 'remove', :via => :post
+
+  match '/start_checkout' => 'products#start_checkout', :as => 'start_checkout', :via => :get
+
+  match '/finish_checkout' => 'products#finish_checkout', :as => 'finish_checkout', :via => :post
 
 
 

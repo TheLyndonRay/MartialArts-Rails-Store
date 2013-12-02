@@ -1,0 +1,14 @@
+<h1>Checkout</h1>
+
+<section>
+  <%= form_for :customer, url: finish_checkout_path do |f| %>
+      First name: <%= f.text_field :first_name %><br />
+      Last name: <%= f.text_field :last_name %><br />
+      Address: <%= f.text_field :address %><br />
+      City: <%= f.text_field :city %> Province: <%= f.select :province_id, Province.all.collect {|p| [ p.name ] } %><br />
+      Postal Code: <%= f.text_field :postal_code %><br />
+      Email: <%= f.text_field :email %><br />
+      <%= f.submit 'Checkout!' %>
+  <% end %>
+</section>
+

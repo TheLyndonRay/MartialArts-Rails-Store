@@ -1,4 +1,7 @@
 class ProductsController < ApplicationController
+  before_filter :start_cart
+
+
   def index
 
     @products = Product.order('id')
@@ -48,7 +51,68 @@ class ProductsController < ApplicationController
 
   end
 
+  def add_to_cart
+
+    id = params[:id].to_i
+    session[:items] << id unless session[:items].include?(id)
+    redirect_to :action => :index
+
+  end
+
+  def remove_from_cart
+
+    id = params[:id].to_i
+    session[:items].delete(id)
+    redirect_to :action => :index
+
+  end
+
+  def start_checkout
+
+  end
+
+  def finish_checkout
+
+    @customer = Customer.new
+    @customer.first_name = params[:first_name]
+    @customer.last_name = params[:last_name]
+    @customer.address = params[:address]
+    @customer.city = params[:city]
+    @customer.postal_code = params[:postal_code]
+    @customer.email = params[:email]
+
+    if @customer.save
+      @order = @customer.orders.build
+      @order.pst_rate = @customer.province.pst
+      @order.gst_rate = @customer.province.gst
+      @order.hst_rate = @customer.province.hst
+      @order.save
+
+      session[:items].each do |id|
+        product = Product.find(id)
+        line_item = @order.line_items.build
+        line_item.product = product
+        line_item.price = product.price
+        product.stock_quantity -= 1
+        product.save
+        line_item.save
+      end
+    end
 
 
+  end
+
+
+
+
+protected
+
+  def start_cart
+
+    session[:items] ||= []
+    @cart = []
+    session[:items].each {|id| @cart << Product.find(id)}
+
+  end
 
 end

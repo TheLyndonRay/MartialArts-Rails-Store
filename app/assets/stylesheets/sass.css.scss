@@ -34,9 +34,24 @@ body {
   font: $font_var;
 
   .jumbotron {
-    width: 80%;
+    width: 100%;
     color: $dat_white;
     background-color: $dat_blu;
+    position: relative;
+
+    .the_cart {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      width: 200px;
+      height: 110px;
+      background-color: #ffffff;
+      border: 1px solid #163C5C;
+      border-radius: 30px 30px 30px 30px;
+      padding: 10px;
+      color: #000000;
+      font-size: 10px;
+    }
   }
 
 }
@@ -57,4 +72,9 @@ body {
 
   }
 
+}
+
+#float_right {
+  float: right;
+  font-size: 10px;
 }
