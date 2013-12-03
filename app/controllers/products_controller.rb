@@ -74,15 +74,18 @@ class ProductsController < ApplicationController
   def finish_checkout
 
     @customer = Customer.new
-    @customer.first_name = params[:first_name]
-    @customer.last_name = params[:last_name]
-    @customer.address = params[:address]
-    @customer.city = params[:city]
-    @customer.postal_code = params[:postal_code]
-    @customer.email = params[:email]
+    @customer.first_name = params[:customer][:first_name]
+    @customer.last_name = params[:customer][:last_name]
+    @customer.address = params[:customer][:address]
+    @customer.city = params[:customer][:city]
+    @customer.postal_code = params[:customer][:postal_code]
+    @customer.email = params[:customer][:email]
+    @customer.province_id = params[:customer][:province_id]
 
     if @customer.save
+
       @order = @customer.orders.build
+      @order.status = 'pending'
       @order.pst_rate = @customer.province.pst
       @order.gst_rate = @customer.province.gst
       @order.hst_rate = @customer.province.hst
@@ -97,8 +100,8 @@ class ProductsController < ApplicationController
         product.save
         line_item.save
       end
-    end
 
+    end
 
   end
 

@@ -1,5 +1,10 @@
 class PagesController < ApplicationController
   def index
+
+    session[:items] ||= []
+    @cart = []
+    session[:items].each {|id| @cart << Product.find(id)}
+
   end
 
   def about

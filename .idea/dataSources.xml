@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="2888276508">
-    <data-source source="LOCAL" name="Rails A4ProjectRevive: development" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="b2d4da0c-648e-4c51-bf2b-3a03adb4b0cd">
+    <data-source source="LOCAL" name="Rails A4ProjectRevive: development" uuid="b2d4da0c-648e-4c51-bf2b-3a03adb4b0cd">
+      <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:K:\Docs\Skydrive\RRC TERM 3\E Commerce\Rails Projects\A4ProjectRevive\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\A4ProjectRevive\db\development.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
