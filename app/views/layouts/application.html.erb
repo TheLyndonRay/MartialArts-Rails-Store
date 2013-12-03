@@ -45,12 +45,13 @@
         Cart Items: <%= session['items'].count %>
       </p>
       <p>
-        <%= link_to 'Check Out', start_checkout_path %>
+        <span class="float_left"><%= link_to 'Check Out', start_checkout_path %></span>
+      </p>
+      <p>
+        <%= link_to 'View Cart', view_cart_path %>
       </p>
     </div>
   </div>
-  <p><%= debug session %></p>
-  <p><%= debug @customer.inspect %></p>
 
 
 

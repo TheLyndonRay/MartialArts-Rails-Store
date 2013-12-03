@@ -1,1 +1,8 @@
-<h1>Checkout Complete</h1>
+<% if flash[:notice] %>
+    <%= flash[:notice] %>
+<% else %>
+    <h1>Checkout Complete</h1>
+    Sub total: <%= number_to_currency(@sub_total) %><br />
+    Taxes: <%= number_to_currency(@taxes) %><br />
+    Grand total: <%= number_to_currency(@grand_total) %><br />
+<% end %>

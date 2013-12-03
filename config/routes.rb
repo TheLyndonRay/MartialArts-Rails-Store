@@ -29,6 +29,8 @@ A4ProjectRevive::Application.routes.draw do
 
   match '/finish_checkout' => 'products#finish_checkout', :as => 'finish_checkout', :via => :post
 
+  match '/view_cart' => 'products#view_cart', :as => 'view_cart', :via => :get
+
 
 
   # The priority is based upon order of creation:

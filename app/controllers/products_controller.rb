@@ -44,7 +44,7 @@ class ProductsController < ApplicationController
 
     else
 
-      @products = Product.joins(:category).where("categories.id LIKE ? and products.name LIKE ?", "%#{params['category']}%", "%#{params[:keywords]}%")
+      @products = Product.joins(:category).where("categories.id LIKE ?", "%#{params['category']}%").where("products.name LIKE ? or products.description LIKE ?", "%#{params[:keywords]}%", "%#{params[:keywords]}%")
 
     end
 
@@ -69,18 +69,27 @@ class ProductsController < ApplicationController
 
   def start_checkout
 
+    @customer = Customer.new
+    @provinces = Province.all
+
+  end
+
+  def view_cart
+
+    @products = @cart
+
   end
 
   def finish_checkout
 
-    @customer = Customer.new
-    @customer.first_name = params[:customer][:first_name]
-    @customer.last_name = params[:customer][:last_name]
-    @customer.address = params[:customer][:address]
-    @customer.city = params[:customer][:city]
-    @customer.postal_code = params[:customer][:postal_code]
-    @customer.email = params[:customer][:email]
-    @customer.province_id = params[:customer][:province_id]
+    @customer = Customer.new(params[:customer])
+    #@customer.first_name = params[:customer][:first_name]
+    #@customer.last_name = params[:customer][:last_name]
+    #@customer.address = params[:customer][:address]
+    #@customer.city = params[:customer][:city]
+    #@customer.postal_code = params[:customer][:postal_code]
+    #@customer.email = params[:customer][:email]
+    #@customer.province_id = params[:customer][:province_id]
 
     if @customer.save
 
@@ -91,17 +100,50 @@ class ProductsController < ApplicationController
       @order.hst_rate = @customer.province.hst
       @order.save
 
+
+      @sub_total = 0
+
       session[:items].each do |id|
         product = Product.find(id)
         line_item = @order.line_items.build
         line_item.product = product
         line_item.price = product.price
+        @sub_total += product.price
+        line_item.quantity = 1
         product.stock_quantity -= 1
         product.save
         line_item.save
       end
 
+      session[:items] = []
+      individual_total = 0
+
+      pst = @customer.province.pst
+      gst = @customer.province.gst
+      hst = @customer.province.hst
+
+      pst_string_percentage = pst * 100
+      gst_string_percentage = gst * 100
+      hst_string_percentage = hst * 100
+
+      pst_float = pst_string_percentage.to_f.round(2)
+      gst_float = gst_string_percentage.to_f.round(2)
+      hst_float = hst_string_percentage.to_f.round(2)
+
+      total_with_pst = @sub_total * pst
+      total_with_gst = @sub_total * gst
+      total_with_hst = @sub_total * hst
+
+      @taxes = total_with_pst + total_with_gst + total_with_hst
+
+      @grand_total = @sub_total + @taxes
+
+    else
+
+     flash[:notice] = 'Something went wrong. Please try again.'
+
     end
+
 
   end
 

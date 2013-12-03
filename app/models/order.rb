@@ -7,5 +7,5 @@ class Order < ActiveRecord::Base
 
 
   validates :customer_id, :status, :presence => true
-  validates :order, :inclusion => { :in => %w(paid pending shipped) }
+  validates :status, :inclusion => { :in => %w(paid pending shipped) }
 end
