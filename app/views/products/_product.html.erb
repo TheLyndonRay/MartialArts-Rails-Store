@@ -2,7 +2,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">
         <h3 class="panel-title">
-          <%= link_to product.name, product %> - <%= "#{product.price} each" %>
+          <%= link_to product.name, product %> - <%= number_to_currency(product.price) %> each
           <% if session[:items].include?(product.id) %>
             <span id="float_right"><%= link_to 'Remove From Cart', remove_path(product), :method => :post %></span>
           <% else %>
